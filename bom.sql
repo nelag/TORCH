@@ -23,27 +23,28 @@ DROP TABLE IF EXISTS `bom`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `bom` (
-  `project` int(10) unsigned DEFAULT NULL,
+  `item` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `part` varchar(16) DEFAULT NULL,
   `parent` int(10) unsigned DEFAULT NULL,
-  `item` int(10) unsigned DEFAULT NULL,
+  `parent_pn` varchar(16) DEFAULT NULL,
+  `description` varchar(128) DEFAULT NULL,
   `qty` int(10) unsigned DEFAULT NULL,
   `type` varchar(4) DEFAULT NULL,
-  `part` varchar(16) DEFAULT NULL,
-  `description` varchar(128) DEFAULT NULL,
-  `cost_u` float DEFAULT NULL,
-  `cost_e` float DEFAULT NULL,
-  `note` varchar(128) DEFAULT NULL,
-  `part_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `manufacturer` varchar(64) DEFAULT NULL,
   `manufacturer_pn` varchar(64) DEFAULT NULL,
   `supplier` varchar(64) DEFAULT NULL,
   `supplier_pn` varchar(64) DEFAULT NULL,
   `link` varchar(255) DEFAULT NULL,
   `files` varchar(255) DEFAULT NULL,
+  `notes` varchar(255) DEFAULT NULL,
+  `cost_u` float DEFAULT NULL,
+  `cost_e` float DEFAULT NULL,
   `top` tinyint(1) DEFAULT NULL,
   `chksum` varchar(40) DEFAULT NULL,
-  PRIMARY KEY (`part_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+  PRIMARY KEY (`item`),
+  KEY `item` (`item`),
+  KEY `part` (`part`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -64,4 +65,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-09-12  0:03:35
+-- Dump completed on 2013-09-17 22:34:19
