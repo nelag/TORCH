@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.1.69, for redhat-linux-gnu (i386)
+-- MySQL dump 10.13  Distrib 5.1.69, for redhat-linux-gnu (x86_64)
 --
--- Host: 192.168.1.150    Database: bndr_s000
+-- Host: 192.237.246.191    Database: bndr_s000
 -- ------------------------------------------------------
--- Server version	5.1.69
+-- Server version	5.1.69-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -29,6 +29,7 @@ CREATE TABLE `bom` (
   `parent_pn` varchar(16) DEFAULT NULL,
   `description` varchar(128) DEFAULT NULL,
   `qty` int(10) unsigned DEFAULT NULL,
+  `unit` varchar(4) DEFAULT NULL,
   `type` varchar(4) DEFAULT NULL,
   `manufacturer` varchar(64) DEFAULT NULL,
   `manufacturer_pn` varchar(64) DEFAULT NULL,
@@ -65,4 +66,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-09-17 22:34:19
+-- Dump completed on 2013-10-18 12:11:12
