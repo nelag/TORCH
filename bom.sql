@@ -40,6 +40,8 @@ CREATE TABLE `bom` (
   `notes` varchar(255) DEFAULT NULL,
   `cost_u` float DEFAULT NULL,
   `cost_e` float DEFAULT NULL,
+  `types` varchar(255) DEFAULT NULL,
+  `tuples` varchar(255) DEFAULT NULL,
   `top` tinyint(1) DEFAULT NULL,
   `chksum` varchar(40) DEFAULT NULL,
   PRIMARY KEY (`item`),
@@ -54,12 +56,12 @@ CREATE TABLE `bom` (
 
 LOCK TABLES `bom` WRITE;
 /*!40000 ALTER TABLE `bom` DISABLE KEYS */;
-INSERT INTO `bom` VALUES (1,'',0,'','Sensor Head',1,'','','','','','','','','',0,0,1,'23ac4a16b22c4c52f6503d9d957a405a18f55060');
-INSERT INTO `bom` VALUES (2,'',0,'','Device Handle',1,'','','','','','','','','',0,0,1,'eb9af87561695d24ea0868ea3ab5b30e84540971');
-INSERT INTO `bom` VALUES (3,'',1,'','IR Range-Finder 2',1,'','','','','','','','','',0,0,0,'513adc3fc24b814472b0f2baa539ed2c9eaeb61a');
-INSERT INTO `bom` VALUES (4,'',1,'','Ultra-Sonic Range-Finder',1,'','','','','','','','','',0,0,0,'4728866f974917703fe48c62575fb9959f62a803');
-INSERT INTO `bom` VALUES (5,'',2,'','On-Off Switch',1,'','','','','','','','','',0,0,0,'33023ab892d15abc69bb60775328409faaf6b04d');
-INSERT INTO `bom` VALUES (6,'',2,'','Micro Vibrating Motors',5,'','','','','','','','','',0,0,0,'7c291f6d1e076d7ce41013d62ff9b966b65f07a3');
+INSERT INTO `bom` VALUES (1,'',0,'','Sensor Head',1,'','','','','','','','','',0,0,NULL,NULL,1,'23ac4a16b22c4c52f6503d9d957a405a18f55060');
+INSERT INTO `bom` VALUES (2,'',0,'','Device Handle',1,'','','','','','','','','',0,0,NULL,NULL,1,'eb9af87561695d24ea0868ea3ab5b30e84540971');
+INSERT INTO `bom` VALUES (3,'',1,'','IR Range-Finder 2',1,'','','','','','','','','',0,0,NULL,NULL,0,'513adc3fc24b814472b0f2baa539ed2c9eaeb61a');
+INSERT INTO `bom` VALUES (4,'',1,'','Ultra-Sonic Range-Finder',1,'','','','','','','','','',0,0,NULL,NULL,0,'4728866f974917703fe48c62575fb9959f62a803');
+INSERT INTO `bom` VALUES (5,'',2,'','On-Off Switch',1,'','','','','','','','','',0,0,NULL,NULL,0,'33023ab892d15abc69bb60775328409faaf6b04d');
+INSERT INTO `bom` VALUES (6,'',2,'','Micro Vibrating Motors',5,'','','','','','','','','',0,0,NULL,NULL,0,'7c291f6d1e076d7ce41013d62ff9b966b65f07a3');
 /*!40000 ALTER TABLE `bom` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -72,4 +74,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-11-12  8:02:17
+-- Dump completed on 2013-11-18  9:47:51
