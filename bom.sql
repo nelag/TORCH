@@ -64,7 +64,7 @@ INSERT INTO `bom` VALUES (5,'',2,'','On-Off Switch',1,'','','','','','','','',''
 INSERT INTO `bom` VALUES (6,'',2,'','Micro Vibrating Motors',5,'','','','','','','','','',0,0,NULL,NULL,0,'7c291f6d1e076d7ce41013d62ff9b966b65f07a3');
 INSERT INTO `bom` VALUES (7,'ASSY003',NULL,NULL,'Embedded Controller',1,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'8ee62200f3d685d8d67e13ef8ecf4ea0e38c3292');
 INSERT INTO `bom` VALUES (8,'PART001',1,NULL,'Bezel ',1,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Modified from PVC Reducing Coupling, 2\\\" x 1 1/2\\\"',NULL,NULL,NULL,NULL,NULL,'2bcc4bf0acfc5e842a26e25ceb19f1370201adf2');
-INSERT INTO `bom` VALUES (10,'PART001',8,NULL,'Reducing Coupling, PVC, 2\\\" x 1 1/2\\\"Bezel ',1,'each',NULL,'Genova Products','70121','Aubuchon Hardware','244350','http://www.hardwarestore.com/reducing-coupling-244350.aspx',NULL,'Modified from PVC Reducing Coupling, 2\\\" x 1 1/2\\\"',NULL,NULL,NULL,NULL,NULL,'222d7cd0721f8a284c8bedf7ae257b20ae8dfa56');
+INSERT INTO `bom` VALUES (10,'PART001',8,NULL,'Reducing Coupling, PVC, 2\" x 1 1/2\"Bezel ',1,'each',NULL,'Genova Products','70121','Aubuchon Hardware','244350','http://www.hardwarestore.com/reducing-coupling-244350.aspx',NULL,'Modified from PVC Reducing Coupling, 2\" x 1 1/2\"',NULL,NULL,NULL,NULL,0,'0e46cde3051cf473f202329c78ed478ec65619ba');
 /*!40000 ALTER TABLE `bom` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -77,4 +77,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-01-22 10:06:09
+-- Dump completed on 2014-01-22 10:08:58
