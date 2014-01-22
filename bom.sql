@@ -47,7 +47,7 @@ CREATE TABLE `bom` (
   PRIMARY KEY (`item`),
   KEY `item` (`item`),
   KEY `part` (`part`)
-) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -56,12 +56,15 @@ CREATE TABLE `bom` (
 
 LOCK TABLES `bom` WRITE;
 /*!40000 ALTER TABLE `bom` DISABLE KEYS */;
-INSERT INTO `bom` VALUES (1,'',0,'','Sensor Head',1,'','','','','','','','','',0,0,NULL,NULL,1,'23ac4a16b22c4c52f6503d9d957a405a18f55060');
-INSERT INTO `bom` VALUES (2,'',0,'','Device Handle',1,'','','','','','','','','',0,0,NULL,NULL,1,'eb9af87561695d24ea0868ea3ab5b30e84540971');
+INSERT INTO `bom` VALUES (1,'ASSY001',0,'','Sensor Head',1,'each','','','','','','','','',0,0,NULL,NULL,1,'f55bad537dbad014d4c7e530a699f3f3fe1320a0');
+INSERT INTO `bom` VALUES (2,'ASSY002',0,'','Device Handle',1,'each','','','','','','','','',0,0,NULL,NULL,1,'db529f136c37daac92cc90233b5d4c946cbf6a62');
 INSERT INTO `bom` VALUES (3,'',1,'','IR Range-Finder 2',1,'','','','','','','','','',0,0,NULL,NULL,0,'513adc3fc24b814472b0f2baa539ed2c9eaeb61a');
 INSERT INTO `bom` VALUES (4,'',1,'','Ultra-Sonic Range-Finder',1,'','','','','','','','','',0,0,NULL,NULL,0,'4728866f974917703fe48c62575fb9959f62a803');
 INSERT INTO `bom` VALUES (5,'',2,'','On-Off Switch',1,'','','','','','','','','',0,0,NULL,NULL,0,'33023ab892d15abc69bb60775328409faaf6b04d');
 INSERT INTO `bom` VALUES (6,'',2,'','Micro Vibrating Motors',5,'','','','','','','','','',0,0,NULL,NULL,0,'7c291f6d1e076d7ce41013d62ff9b966b65f07a3');
+INSERT INTO `bom` VALUES (7,'ASSY003',NULL,NULL,'Embedded Controller',1,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'8ee62200f3d685d8d67e13ef8ecf4ea0e38c3292');
+INSERT INTO `bom` VALUES (8,'PART001',1,NULL,'Bezel ',1,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Modified from PVC Reducing Coupling, 2\\\" x 1 1/2\\\"',NULL,NULL,NULL,NULL,NULL,'2bcc4bf0acfc5e842a26e25ceb19f1370201adf2');
+INSERT INTO `bom` VALUES (9,'PART001',81,NULL,'Reducing Coupling, PVC, 2\\\" x 1 1/2\\\"Bezel ',1,'each',NULL,'Genova Products','70121','Aubuchon Hardware','244350','http://www.hardwarestore.com/reducing-coupling-244350.aspx',NULL,'Modified from PVC Reducing Coupling, 2\\\" x 1 1/2\\\"',NULL,NULL,NULL,NULL,NULL,'f7e512be3c3851ac218630f932a7789435304a24');
 /*!40000 ALTER TABLE `bom` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -74,4 +77,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-01-22  9:51:52
+-- Dump completed on 2014-01-22 10:05:36
