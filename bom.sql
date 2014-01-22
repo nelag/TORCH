@@ -58,8 +58,8 @@ LOCK TABLES `bom` WRITE;
 /*!40000 ALTER TABLE `bom` DISABLE KEYS */;
 INSERT INTO `bom` VALUES (1,'ASSY001',0,'','Sensor Head',1,'each','','','','','','','','',0,0,NULL,NULL,1,'f55bad537dbad014d4c7e530a699f3f3fe1320a0');
 INSERT INTO `bom` VALUES (2,'ASSY002',0,'','Device Handle',1,'each','','','','','','','','',0,0,NULL,NULL,1,'db529f136c37daac92cc90233b5d4c946cbf6a62');
-INSERT INTO `bom` VALUES (3,'',1,'','IR Range-Finder 2',1,'','','','','','','','','',0,0,NULL,NULL,0,'513adc3fc24b814472b0f2baa539ed2c9eaeb61a');
-INSERT INTO `bom` VALUES (4,'',1,'','Ultra-Sonic Range-Finder',1,'','','','','','','','','',0,0,NULL,NULL,0,'4728866f974917703fe48c62575fb9959f62a803');
+INSERT INTO `bom` VALUES (3,'',1,'','IR SENSOR, DISTANCE, ANALOG ',1,'','','Sharp','GP2Y0A710K0F','Newark','14N9319','http://www.newark.com/sharp/gp2y0a710k0f/sensor-distance-analog/dp/14N9319?CMP=AFC-OP','','',0,0,NULL,NULL,0,'d45c161ef1ee030f685c11f08c9252c0a6dca9b9');
+INSERT INTO `bom` VALUES (4,'',1,'','High Performance Ultrasonic Rangefinder',1,'','','MaxBotix','LVâ€‘MaxSonarâ€‘EZ0','MaxBotix','MB1000','http://www.maxbotix.com/Ultrasonic_Sensors/MB1000.htm','','',0,0,NULL,NULL,0,'5eefb7bc1078adbc996914b95e18f4802007c74b');
 INSERT INTO `bom` VALUES (5,'',2,'','On-Off Switch',1,'','','','','','','','','',0,0,NULL,NULL,0,'33023ab892d15abc69bb60775328409faaf6b04d');
 INSERT INTO `bom` VALUES (6,'',2,'','Micro Vibrating Motors',5,'','','','','','','','','',0,0,NULL,NULL,0,'7c291f6d1e076d7ce41013d62ff9b966b65f07a3');
 INSERT INTO `bom` VALUES (7,'ASSY003',NULL,NULL,'Embedded Controller',1,'each',NULL,NULL,NULL,NULL,NULL,'',NULL,'',NULL,NULL,NULL,NULL,1,'94679d79f83b587a7e4fb1dc4c9c8fec3442b736');
@@ -79,4 +79,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-01-22 10:36:26
+-- Dump completed on 2014-01-22 10:52:01
