@@ -47,7 +47,7 @@ CREATE TABLE `bom` (
   PRIMARY KEY (`item`),
   KEY `item` (`item`),
   KEY `part` (`part`)
-) ENGINE=MyISAM AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=21 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -65,7 +65,7 @@ INSERT INTO `bom` VALUES (6,'',2,'','Micro Vibrating Motors',5,'','','','','',''
 INSERT INTO `bom` VALUES (7,'ASSY003',NULL,NULL,'Embedded Controller',1,'each',NULL,NULL,NULL,NULL,NULL,'',NULL,'',NULL,NULL,NULL,NULL,1,'94679d79f83b587a7e4fb1dc4c9c8fec3442b736');
 INSERT INTO `bom` VALUES (8,'ASSY005',1,NULL,'Bezel ',1,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Modified from PVC Reducing Couplings',NULL,NULL,NULL,NULL,0,'e75ad02fceef3f9d0a40d9325a76fe51cd223040');
 INSERT INTO `bom` VALUES (11,'McGumps',7,NULL,'McGill McGumps Development Board',1,'each',NULL,NULL,NULL,NULL,NULL,'http://crasseux.com/embedded/MP_EVB_manual.pdf',NULL,'TI MSP430 MCU and the Altera MAX7128AE PLD',NULL,NULL,NULL,NULL,0,'22d6690a24d5cd21e2a5c089dca814932e105f4d');
-INSERT INTO `bom` VALUES (12,'ASSY004',7,NULL,'H-Bridge Motor Driver',1,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'6225acc4184efd2ac483e3737178d232d2016b03');
+INSERT INTO `bom` VALUES (12,'ASSY004',0,NULL,'H-Bridge Motor Driver',1,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'dfcafc56a635619937a19cec76cfee7fdee0b885');
 INSERT INTO `bom` VALUES (10,'',8,NULL,'Reducing Coupling, PVC, 2\" x 1 1/2\"',1,'each',NULL,'Genova Products','70121','Aubuchon Hardware','244350','http://www.hardwarestore.com/reducing-coupling-244350.aspx',NULL,'',NULL,NULL,NULL,NULL,0,'f370092a57c4c139d211818533136018e22e472c');
 INSERT INTO `bom` VALUES (13,NULL,8,NULL,'Reducing Bushing, PVC, 1 1/2\" x 1\"',1,'each',NULL,'Genova Products','30250','Aubuchon Hardware','184879','http://www.hardwarestore.com/reducing-bushing-184879.aspx',NULL,NULL,NULL,NULL,NULL,NULL,0,'ac76ef16900103ff0e48a77866595906bf89be40');
 INSERT INTO `bom` VALUES (18,NULL,2,NULL,'PHMS, SS, 10-32 Thread, 3\" lg.',1,'each',NULL,'McMaster-Carr','91772A842','McMaster-Carr','91772A842','http://www.mcmaster.com/#91772a842/=qd2ow5',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'8cc3e2baacd4ab551a6abee63c34f8dbb73951a3');
@@ -74,6 +74,7 @@ INSERT INTO `bom` VALUES (15,'PART002',2,NULL,'Handle Center Section',4,'each',N
 INSERT INTO `bom` VALUES (16,'PART003',2,NULL,'Handle Rear Section',1,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Modified from 1\" PVC pipe',NULL,NULL,NULL,NULL,NULL,'43a1cbf2a9149852e6f760ea3550d5a71fdb1a30');
 INSERT INTO `bom` VALUES (17,'PART004',2,NULL,'Handle Front Section',1,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Modified from 1\" PVC pipe',NULL,NULL,NULL,NULL,NULL,'c553b3eea381897052477e07d261c56ed4f46dc4');
 INSERT INTO `bom` VALUES (19,NULL,2,NULL,'Nut, SS, 10-32,',3,'each',NULL,'McMaster-Carr','91841A195','McMaster-Carr','91841A195','http://www.mcmaster.com/#91841a195/=qd2qc6',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'df13c422b0ffbcc62b869240bae578973b2c3f84');
+INSERT INTO `bom` VALUES (20,'1',NULL,NULL,'Electrical Assembly',1,'step',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Interconnect Procedure',NULL,NULL,NULL,NULL,1,'f72c77efb1b13b1d6753ebea8439804582f47c9b');
 /*!40000 ALTER TABLE `bom` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -86,4 +87,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-01-22 17:18:30
+-- Dump completed on 2014-01-22 17:56:00
