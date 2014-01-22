@@ -60,7 +60,7 @@ INSERT INTO `bom` VALUES (1,'ASSY001',0,'','Sensor Head',1,'each','','','','',''
 INSERT INTO `bom` VALUES (2,'ASSY002',0,'','Device Handle',1,'each','','','','','','','','',0,0,NULL,NULL,1,'db529f136c37daac92cc90233b5d4c946cbf6a62');
 INSERT INTO `bom` VALUES (3,'',1,'','IR SENSOR, DISTANCE, ANALOG ',1,'each','','Sharp','GP2Y0A710K0F','Newark','14N9319','http://www.newark.com/sharp/gp2y0a710k0f/sensor-distance-analog/dp/14N9319?CMP=AFC-OP','','',0,0,NULL,NULL,0,'365655a85e6a5bf2b6677f1749a8dc8d7557757d');
 INSERT INTO `bom` VALUES (4,'',1,'','High Performance Ultrasonic Rangefinder',1,'each','','MaxBotix','LV-MaxSonar-EZ0','MaxBotix','MB1000','http://www.maxbotix.com/Ultrasonic_Sensors/MB1000.htm','','',0,0,NULL,NULL,0,'856e6f84b3f12d231a32665b78b5693d48193664');
-INSERT INTO `bom` VALUES (5,'',2,'','On-Off Switch',1,'','','','','','','','','',0,0,NULL,NULL,0,'33023ab892d15abc69bb60775328409faaf6b04d');
+INSERT INTO `bom` VALUES (5,'',2,'','SWITCH ROCKER SPST 10A 125V',1,'each','','E-Switch','R6ABLKBLKFF','Digi-Key','EG1526-ND','http://www.digikey.com/product-detail/en/R6ABLKBLKFF/EG1526-ND/301973','','',0,0,NULL,NULL,0,'a1df2bce92af78272bc67a459f0f85802dc69305');
 INSERT INTO `bom` VALUES (6,'',2,'','Micro Vibrating Motors',5,'','','','','','','','','',0,0,NULL,NULL,0,'7c291f6d1e076d7ce41013d62ff9b966b65f07a3');
 INSERT INTO `bom` VALUES (7,'ASSY003',NULL,NULL,'Embedded Controller',1,'each',NULL,NULL,NULL,NULL,NULL,'',NULL,'',NULL,NULL,NULL,NULL,1,'94679d79f83b587a7e4fb1dc4c9c8fec3442b736');
 INSERT INTO `bom` VALUES (8,'ASSY005',1,NULL,'Bezel ',1,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Modified from PVC Reducing Couplings',NULL,NULL,NULL,NULL,0,'e75ad02fceef3f9d0a40d9325a76fe51cd223040');
@@ -86,4 +86,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-01-22 12:01:12
+-- Dump completed on 2014-01-22 17:18:30
