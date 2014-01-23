@@ -56,7 +56,7 @@ CREATE TABLE `bom` (
 
 LOCK TABLES `bom` WRITE;
 /*!40000 ALTER TABLE `bom` DISABLE KEYS */;
-INSERT INTO `bom` VALUES (1,'ASSY001',0,'','Sensor Head',1,'each','','','','','','','','',0,0,NULL,NULL,1,'f55bad537dbad014d4c7e530a699f3f3fe1320a0');
+INSERT INTO `bom` VALUES (1,'ASSY001',0,'','Sensor Head',1,'each','','','','','','https://www.dropbox.com/s/75pftnot16qx7nu/SENSORHEAD.PDF','','',0,0,NULL,NULL,1,'3b860e788ec3b503f61ee60811dd4c4f087b8e41');
 INSERT INTO `bom` VALUES (2,'ASSY002',0,'','Device Handle',1,'each','','','','','','','','',0,0,NULL,NULL,1,'db529f136c37daac92cc90233b5d4c946cbf6a62');
 INSERT INTO `bom` VALUES (3,'',1,'','IR SENSOR, DISTANCE, ANALOG ',1,'each','','Sharp','GP2Y0A710K0F','Newark','14N9319','http://www.newark.com/sharp/gp2y0a710k0f/sensor-distance-analog/dp/14N9319?CMP=AFC-OP','','',0,0,NULL,NULL,0,'365655a85e6a5bf2b6677f1749a8dc8d7557757d');
 INSERT INTO `bom` VALUES (4,'',1,'','High Performance Ultrasonic Rangefinder',1,'each','','MaxBotix','LV-MaxSonar-EZ0','MaxBotix','MB1000','http://www.maxbotix.com/Ultrasonic_Sensors/MB1000.htm','','',0,0,NULL,NULL,0,'856e6f84b3f12d231a32665b78b5693d48193664');
@@ -86,4 +86,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-01-23 11:26:33
+-- Dump completed on 2014-01-23 12:10:06
