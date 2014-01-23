@@ -67,12 +67,12 @@ INSERT INTO `bom` VALUES (11,'McGumps',7,NULL,'McGill McGumps Development Board'
 INSERT INTO `bom` VALUES (12,'ASSY004',0,NULL,'H-Bridge Motor Driver',1,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'dfcafc56a635619937a19cec76cfee7fdee0b885');
 INSERT INTO `bom` VALUES (10,'',1,NULL,'Reducing Coupling, PVC, 2\" x 1 1/2\"',1,'each',NULL,'Genova Products','70121','Aubuchon Hardware','244350','http://www.hardwarestore.com/reducing-coupling-244350.aspx',NULL,'',NULL,NULL,NULL,NULL,0,'4bf5c787b92fde3bfd8f68dc951e5fab9c7d231c');
 INSERT INTO `bom` VALUES (13,NULL,1,NULL,'Reducing Bushing, PVC, 1 1/2\" x 1\"',1,'each',NULL,'Genova Products','30250','Aubuchon Hardware','184879','http://www.hardwarestore.com/reducing-bushing-184879.aspx',NULL,NULL,NULL,NULL,NULL,NULL,0,'ed63e90d28d6da4ac58c127740403270e4cf814e');
-INSERT INTO `bom` VALUES (18,NULL,2,NULL,'PHMS, SS, 10-32 Thread, 3\" lg.',1,'each',NULL,'McMaster-Carr','91772A842','McMaster-Carr','91772A842','http://www.mcmaster.com/#91772a842/=qd2ow5',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'8cc3e2baacd4ab551a6abee63c34f8dbb73951a3');
+INSERT INTO `bom` VALUES (18,NULL,1,NULL,'PHMS, SS, 8-32 Thread, 3\" lg.',1,'each',NULL,'McMaster-Carr','91772A209','McMaster-Carr','91772A209','http://www.mcmaster.com/#91772a209/=qdkr82',NULL,NULL,NULL,NULL,NULL,NULL,0,'2cfa0595629900957f2e6c27e1cc4a1c58774ed3');
 INSERT INTO `bom` VALUES (14,'PART001',2,NULL,'Handle Top',1,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Modified from 1\" PVC pipe',NULL,NULL,NULL,NULL,NULL,'572b564bb91f1dc8415f18c0ef1eb41785183eb6');
 INSERT INTO `bom` VALUES (15,'PART002',2,NULL,'Handle Center Section',4,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Modified from 1\" PVC pipe',NULL,NULL,NULL,NULL,0,'83bc317eca7a98f73610dee1786f19c86b0af2b8');
 INSERT INTO `bom` VALUES (16,'PART003',2,NULL,'Handle Rear Section',1,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Modified from 1\" PVC pipe',NULL,NULL,NULL,NULL,NULL,'43a1cbf2a9149852e6f760ea3550d5a71fdb1a30');
 INSERT INTO `bom` VALUES (17,'PART004',2,NULL,'Handle Front Section',1,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Modified from 1\" PVC pipe',NULL,NULL,NULL,NULL,NULL,'c553b3eea381897052477e07d261c56ed4f46dc4');
-INSERT INTO `bom` VALUES (19,NULL,2,NULL,'Nut, SS, 10-32,',3,'each',NULL,'McMaster-Carr','91841A195','McMaster-Carr','91841A195','http://www.mcmaster.com/#91841a195/=qd2qc6',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'df13c422b0ffbcc62b869240bae578973b2c3f84');
+INSERT INTO `bom` VALUES (19,NULL,1,NULL,'Nut, SS, 8-32,',3,'each',NULL,'McMaster-Carr','91841A009','McMaster-Carr','91841A009','http://www.mcmaster.com/#91841a009/=qdktqn',NULL,NULL,NULL,NULL,NULL,NULL,0,'cb2cc64a96d1bc8bd296067cff29da9f5b037552');
 INSERT INTO `bom` VALUES (21,NULL,12,NULL,'PERIPHERAL DRIVERS, HALF-H, 36V, 1A, DIP-16 ',2,'each',NULL,NULL,'SN754410NE',NULL,NULL,'http://www.newark.com/texas-instruments/sn754410ne/ic-peripheral-drivers-half-h-36v/dp/08F8145?CMP=AFC-OP',NULL,NULL,NULL,NULL,NULL,NULL,0,'cae1b5260e902a723090725a973d963e5757316f');
 /*!40000 ALTER TABLE `bom` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -86,4 +86,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-01-23 10:43:17
+-- Dump completed on 2014-01-23 11:19:22
