@@ -63,11 +63,10 @@ INSERT INTO `bom` VALUES (4,'',1,'','High Performance Ultrasonic Rangefinder',1,
 INSERT INTO `bom` VALUES (5,'',2,'','SWITCH ROCKER SPST 10A 125V',1,'each','','E-Switch','R6ABLKBLKFF','Digi-Key','EG1526-ND','http://www.digikey.com/product-detail/en/R6ABLKBLKFF/EG1526-ND/301973','','',0,0,NULL,NULL,0,'a1df2bce92af78272bc67a459f0f85802dc69305');
 INSERT INTO `bom` VALUES (6,'',2,'','Micro Vibrating Motors',5,'','','','','','','','','',0,0,NULL,NULL,0,'7c291f6d1e076d7ce41013d62ff9b966b65f07a3');
 INSERT INTO `bom` VALUES (7,'ASSY003',NULL,NULL,'Embedded Controller',1,'each',NULL,NULL,NULL,NULL,NULL,'',NULL,'',NULL,NULL,NULL,NULL,1,'94679d79f83b587a7e4fb1dc4c9c8fec3442b736');
-INSERT INTO `bom` VALUES (8,'ASSY005',1,NULL,'Bezel ',1,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Modified from PVC Reducing Couplings',NULL,NULL,NULL,NULL,0,'e75ad02fceef3f9d0a40d9325a76fe51cd223040');
 INSERT INTO `bom` VALUES (11,'McGumps',7,NULL,'McGill McGumps Development Board',1,'each',NULL,NULL,NULL,NULL,NULL,'http://crasseux.com/embedded/MP_EVB_manual.pdf',NULL,'TI MSP430 MCU and the Altera MAX7128AE PLD',NULL,NULL,NULL,NULL,0,'22d6690a24d5cd21e2a5c089dca814932e105f4d');
 INSERT INTO `bom` VALUES (12,'ASSY004',0,NULL,'H-Bridge Motor Driver',1,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'dfcafc56a635619937a19cec76cfee7fdee0b885');
-INSERT INTO `bom` VALUES (10,'',8,NULL,'Reducing Coupling, PVC, 2\" x 1 1/2\"',1,'each',NULL,'Genova Products','70121','Aubuchon Hardware','244350','http://www.hardwarestore.com/reducing-coupling-244350.aspx',NULL,'',NULL,NULL,NULL,NULL,0,'f370092a57c4c139d211818533136018e22e472c');
-INSERT INTO `bom` VALUES (13,NULL,8,NULL,'Reducing Bushing, PVC, 1 1/2\" x 1\"',1,'each',NULL,'Genova Products','30250','Aubuchon Hardware','184879','http://www.hardwarestore.com/reducing-bushing-184879.aspx',NULL,NULL,NULL,NULL,NULL,NULL,0,'ac76ef16900103ff0e48a77866595906bf89be40');
+INSERT INTO `bom` VALUES (10,'',1,NULL,'Reducing Coupling, PVC, 2\" x 1 1/2\"',1,'each',NULL,'Genova Products','70121','Aubuchon Hardware','244350','http://www.hardwarestore.com/reducing-coupling-244350.aspx',NULL,'',NULL,NULL,NULL,NULL,0,'4bf5c787b92fde3bfd8f68dc951e5fab9c7d231c');
+INSERT INTO `bom` VALUES (13,NULL,1,NULL,'Reducing Bushing, PVC, 1 1/2\" x 1\"',1,'each',NULL,'Genova Products','30250','Aubuchon Hardware','184879','http://www.hardwarestore.com/reducing-bushing-184879.aspx',NULL,NULL,NULL,NULL,NULL,NULL,0,'ed63e90d28d6da4ac58c127740403270e4cf814e');
 INSERT INTO `bom` VALUES (18,NULL,2,NULL,'PHMS, SS, 10-32 Thread, 3\" lg.',1,'each',NULL,'McMaster-Carr','91772A842','McMaster-Carr','91772A842','http://www.mcmaster.com/#91772a842/=qd2ow5',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'8cc3e2baacd4ab551a6abee63c34f8dbb73951a3');
 INSERT INTO `bom` VALUES (14,'PART001',2,NULL,'Handle Top',1,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Modified from 1\" PVC pipe',NULL,NULL,NULL,NULL,NULL,'572b564bb91f1dc8415f18c0ef1eb41785183eb6');
 INSERT INTO `bom` VALUES (15,'PART002',2,NULL,'Handle Center Section',4,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Modified from 1\" PVC pipe',NULL,NULL,NULL,NULL,0,'83bc317eca7a98f73610dee1786f19c86b0af2b8');
@@ -87,4 +86,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-01-22 18:35:56
+-- Dump completed on 2014-01-23 10:43:17
